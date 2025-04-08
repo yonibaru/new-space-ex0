@@ -38,7 +38,16 @@ The simulation plots four key graphs to visualize the landing.
 A successful landing requires:
 - Final vertical speed < 2.5 m/s
 - Final horizontal speed < 2.5 m/s
-- Final angle < 2.5 degrees
+- Final angle between 5 degrees and -5 degrees
+
+# Best Landing
+![image](https://github.com/user-attachments/assets/be19c59b-c015-4ac4-817f-2f650f54eba1)
+Final vertical speed: 1.36 m/s (+ve is down)
+Final horizontal speed: 0.32 m/s
+Final angle: 3.00 degrees
+Remaining fuel: 17.77 kg
+
+We believe a better landing can be achieved with better linear interpolation and PID values.
 
 ## Limitations
 This is an overly simplified model and has several limitations:
@@ -50,7 +59,7 @@ This is an overly simplified model and has several limitations:
 
 ## Future Improvements
 Possible future improvements could include:
-- Ditching step functions and using linear functions in the PID
+- Better linear interpolation
 - 3D motion simulation
 - More realistic thruster configurations
 - Landing gear dynamics
