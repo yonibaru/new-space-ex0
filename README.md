@@ -1,7 +1,7 @@
 # Lunar Lander Simulation Project
 
 ## Overview
-This project simulates the landing of a spacecraft (inspired by the Beresheet lander) on the lunar surface using PID controllers to manage the descent. This is Assignment #0 of the course ```Introduction to New Space``` at Ariel University by Prof. Boaz Ben-Moshe.
+This project simulates the landing of a spacecraft (inspired by the Beresheet lander) in 2D on the lunar surface using PID controllers to manage the descent. This is Assignment #0 of the course ```Introduction to New Space``` at Ariel University by Prof. Boaz Ben-Moshe.
 
 ## How It Works
 The simulation uses separate PID (Proportional-Integral-Derivative) controllers to manage both vertical and horizontal speeds of the spacecraft. By continuously adjusting thrust level and spacecraft orientation, the controllers attempt to follow predefined speed profiles based on altitude to achieve a safe landing.
